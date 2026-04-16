@@ -1,5 +1,5 @@
-from chain5 import run_chain
-from memory2 import create_chat
+from .chain5 import run_chain
+from .memory2 import create_chat
 
 print("\n==============================")
 print("🤖 BOOKMIND AI CHAT STARTED")

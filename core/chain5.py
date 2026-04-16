@@ -1,7 +1,7 @@
-from memory2 import create_chat, save_message, get_chat_history
-from retriever1 import retrieve
-from prompt3 import build_prompt
-from llm4 import ask_mistral
+from .memory2 import create_chat, save_message, get_chat_history
+from .retriever1 import retrieve
+from .prompt3 import build_prompt
+from .llm4 import ask_mistral
 
 
 def run_chain(chat_id, query):
